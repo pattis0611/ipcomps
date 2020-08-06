@@ -1,0 +1,64 @@
+.react-ip-input {
+  display: inline-block;
+  border: 1px solid #c2c3c9;
+  border-radius: 4px;
+  padding: 5px 8px;
+}
+
+.react-ip-input .react-ip-input__item {
+  display: inline-block;
+}
+
+.react-ip-input.has-error {
+  border-color: #a94442;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.react-ip-input input {
+  width: 30px;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+input:disabled {
+  background-color: #ffffffff;
+}
+
+.react-ip-input__dot,
+.react-ip-input__item {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: inherit;
+}
+
+.react-ip-input__item {
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.react-ip-input__dot {
+  vertical-align: baseline;
+}
+
+.react-ip-input {
+  display: inline-block;
+  border: 1px solid #cbd6e2;
+  padding: 5px;
+  text-align: center;
+}
+.react-ip-input:hover {
+  box-shadow: 0 2px 4px 0 rgba(211, 211, 211, 0.5);
+}
+.react-ip-input:focus,
+.react-ip-input:focus-within {
+  border-color: #7baaf7;
+  box-shadow: 0 2px 4px 0 rgba(211, 211, 211, 0.5);
+}
+.react-ip-input_error,
+.react-ip-input_error:hover,
+.react-ip-input_error:active,
+.react-ip-input_error:focus,
+.react-ip-input_error:focus-within {
+  border-color: #ea3423;
+}
